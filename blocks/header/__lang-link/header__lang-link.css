@@ -6,5 +6,9 @@
   line-height: 28px;
   text-decoration: none;
   text-decoration-line: underline;
-  
+  margin-right: 18px;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
 }
