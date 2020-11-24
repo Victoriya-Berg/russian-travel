@@ -1,5 +1,4 @@
 .header__lang-link {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
@@ -7,9 +6,5 @@
   line-height: 28px;
   text-decoration: none;
   text-decoration-line: underline;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+  
 }
