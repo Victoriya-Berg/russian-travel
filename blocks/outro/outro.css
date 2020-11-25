@@ -1,4 +1,12 @@
 .outro {
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 100vh;
+  padding-bottom: 92px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
 }
