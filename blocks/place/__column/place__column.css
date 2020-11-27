@@ -1,9 +1,7 @@
 .place__column {
-  display: flex;
-  flex-direction: column;
-  
+ 
 }
 
 .place__column:last-child {
-  margin-right: 0;
+
 }
