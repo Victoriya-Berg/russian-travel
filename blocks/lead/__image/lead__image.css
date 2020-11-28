@@ -4,12 +4,12 @@
   background-size: cover;
   width: 100vw;
   height: 62.5vw;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-left: 7px;
   padding-right: 7px;
   margin: 0;
   margin-bottom: 8px;
- 
 }
 
 @media (min-width: 768px) {

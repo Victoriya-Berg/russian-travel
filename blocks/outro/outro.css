@@ -2,15 +2,25 @@
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100vw;
   height: 61vw;
   padding: 33px 16px;
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .outro::before {
@@ -22,6 +32,8 @@
   left: 0;
   right: 0;
   bottom: 0;
+  -webkit-transition: opacity .1s linear;
+  -o-transition: opacity .1s linear;
   transition: opacity .1s linear;
 }
 

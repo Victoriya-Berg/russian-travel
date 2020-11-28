@@ -1,9 +1,9 @@
 .lead__vector  {
   width: 100%;
   height: auto;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 29px;
-  
 }
 
 @media (min-width: 768px) {

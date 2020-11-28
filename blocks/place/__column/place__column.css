@@ -12,7 +12,8 @@
 @media (min-width: 768px) {
   .place__column {
     margin-left: 28px;
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
 }
 
@@ -26,8 +27,4 @@
   .place__column {
     margin-left: 40px;
   }
-}
-
-.place__column:last-child {
-
 }

@@ -5,8 +5,11 @@
   line-height: 1.1;
   color: #ffffff;
   text-decoration: none;
+  -webkit-transition: opacity .1s linear;
+  -o-transition: opacity .1s linear;
   transition: opacity .1s linear;
 }
+
 
 .header__lang-link:hover {
   opacity: .8;

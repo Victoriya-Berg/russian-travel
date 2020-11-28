@@ -1,5 +1,6 @@
 .place__image {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 340px;
   max-height: 340px;
   width: 100%;
@@ -9,7 +10,8 @@
 
 @media (min-width: 768px) {
   .place__image {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     margin: 0;
   }
 }

@@ -2,10 +2,13 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 1;
+  width: fit-content;
   text-decoration: none;
   color: #ffffff;
   margin: 0;
   margin-bottom: 32px;
+  -webkit-transition: opacity .1s linear;
+  -o-transition: opacity .1s linear;
   transition: opacity .1s linear;
 }
 
