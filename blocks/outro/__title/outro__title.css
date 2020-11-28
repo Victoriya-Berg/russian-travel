@@ -1,3 +1,22 @@
 .outro__title {
+  position: relative;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.09;
+  max-width: 250px;
+  margin: 0 auto 16px auto;
+}
 
+@media (min-width: 768px) {
+  .outro__title {
+    font-size: 72px;
+    line-height: 1.06;
+    min-width: 560px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .outro__title {
+    margin-bottom: 32px;
+  }
 }

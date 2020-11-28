@@ -1,3 +1,34 @@
 .outro {
- 
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 62.5vw;
+  padding: 33px 16px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.outro::before {
+  content: '';
+  background: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 1280px) {
+  .outro {
+    width: calc(1184/1280*100vw);
+    height: 57vw;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
