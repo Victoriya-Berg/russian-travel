@@ -1,5 +1,31 @@
 .place__column {
- 
+ margin-left: 16px;
+ margin-right: 16px;
+}
+
+@media (min-width: 375px) {
+  .place__column {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .place__column {
+    margin-left: 28px;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__column {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__column {
+    margin-left: 40px;
+  }
 }
 
 .place__column:last-child {

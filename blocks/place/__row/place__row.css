@@ -1,3 +1,12 @@
 .place__row {
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .place__row {
+    align-items: flex-end;
+    flex-wrap: nowrap;
+  }
 }

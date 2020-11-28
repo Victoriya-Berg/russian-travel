@@ -1,3 +1,14 @@
 .place__website {
-  
+  font-size: 0;
 }
+
+@media (min-width: 768px) {
+  .place__website {
+    width: calc(100vw - 340px);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}
+

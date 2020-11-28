@@ -1,3 +1,11 @@
 .place__link {
-  
+  color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .place__website {
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
 }
