@@ -40,3 +40,9 @@
     margin-right: 148px;
   }
 }
+
+@media (min-width: 1440px) {
+  .lead__image {
+    margin: 0 auto;
+  }
+}

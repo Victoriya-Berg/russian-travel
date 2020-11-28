@@ -1,5 +1,10 @@
 .place__link {
   color: #ffffff;
+  transition: opacity .1s linear;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
 
 @media (min-width: 1024px) {

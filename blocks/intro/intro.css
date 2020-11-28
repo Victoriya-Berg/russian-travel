@@ -21,3 +21,12 @@
     padding-bottom: 97px;
   }
 }
+
+@media (min-width: 1440px) {
+  .intro {
+    padding: 0;
+    padding: 65px;
+    margin: 0 auto;
+    width: 76.875vw;
+  }
+}

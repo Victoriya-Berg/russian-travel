@@ -26,3 +26,9 @@
     gap: 16px;
   }
 }
+
+@media (min-width: 1440px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

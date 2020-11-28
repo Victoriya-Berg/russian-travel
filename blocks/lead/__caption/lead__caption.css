@@ -28,3 +28,10 @@
     margin-top: 18px;
   }
 }
+
+@media (min-width: 1440px) {
+  .lead__caption {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
