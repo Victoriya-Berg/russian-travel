@@ -16,18 +16,9 @@
 
 @media (min-width: 1280px) {
   .intro {
-    padding-left: 148px;
-    padding-right: 442px;
-    padding-bottom: 97px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .intro {
-    padding: 0;
-    padding: 65px;
+    width: 984px;
+    padding: 92px 0 97px 0;
     margin: 0 auto;
-    width: 76.875vw;
   }
 }
 

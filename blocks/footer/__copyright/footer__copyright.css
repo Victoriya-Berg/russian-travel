@@ -10,9 +10,3 @@
     margin: 0;
   }
 }
-
-@media (min-width: 1440px) {
-  .footer__copyright {
-    font-size: 22px;
-  }
-}

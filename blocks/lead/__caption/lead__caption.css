@@ -24,20 +24,7 @@
 
 @media (min-width: 1280px) {
   .lead__caption {
-    margin-left: 148px;
-    margin-top: 18px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .lead__caption {
     margin-left: 0;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .lead__caption {
-    font-size: 18px;
+    margin-top: 18px;
   }
 }
