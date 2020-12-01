@@ -14,3 +14,9 @@
     min-width: 360px;
   }
 }
+
+@media (min-width: 1920px) {
+  .outro__subtitle {
+    font-size: 24px;
+  }
+}

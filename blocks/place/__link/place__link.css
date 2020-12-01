@@ -16,3 +16,9 @@
     line-height: 1.22;
   }
 }
+
+@media (min-width: 1920px) {
+  .place__website {
+    font-size: 24px;
+  }
+}

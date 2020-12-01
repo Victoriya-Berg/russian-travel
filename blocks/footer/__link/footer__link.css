@@ -31,3 +31,9 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: 1440px) {
+  .footer__link {
+    font-size: 24px;
+  }
+}

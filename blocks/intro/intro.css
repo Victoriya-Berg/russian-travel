@@ -30,3 +30,9 @@
     width: 76.875vw;
   }
 }
+
+@media (min-width: 1920px) {
+  .intro {
+    padding-top: 95px;
+  }
+}

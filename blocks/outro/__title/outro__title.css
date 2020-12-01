@@ -5,6 +5,7 @@
   line-height: 1.09;
   max-width: 250px;
   margin: 0 auto 16px auto;
+  font-weight: 900;
 }
 
 @media (min-width: 768px) {
@@ -18,5 +19,12 @@
 @media (min-width: 1280px) {
   .outro__title {
     margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .outro__title {
+    font-size: 96px;
+    max-width: 700px;
   }
 }

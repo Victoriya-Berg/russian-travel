@@ -29,3 +29,11 @@
     padding: 92px 48px 24px;
   }
 }
+
+@media (min-width: 1440px) {
+  .footer {
+    width: 92%;
+    padding: 92px 0 24px 0;
+    margin: 0 auto;
+  }
+}
