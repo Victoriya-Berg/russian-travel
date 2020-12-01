@@ -7,6 +7,7 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
   gap: 12px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -26,11 +27,14 @@
 @media (min-width: 1280px) {
   .photo-grid {
     gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1440px) {
   .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
+    width: 90.5%;
+    padding: 0 0 92px 0;
+    margin: 0 auto;
   }
 }
