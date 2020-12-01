@@ -8,13 +8,6 @@
   margin-bottom: 32px;
 }
 
-@media (min-width: 360px) {
-  .place__image {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media (min-width: 425px) {
   .place__image {
     margin: 0;
