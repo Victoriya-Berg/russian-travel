@@ -13,18 +13,21 @@
   <div class="page">
     <header class="header">
       <img src="images/logo.svg" alt="Россия" class="header__logo">  
-      <div class="header__lang-links">
-        <a href="#" target="_blank" class="header__lang-link">Ru</a>
-        <a href="#" target="_blank" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a href="#" target="_blank" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a href="#" target="_blank" class="header__lang-link">En</a></li>
+      </ul>
     </header>
+
+    <main class="content">
+
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image">
-        <img src="images/lead__vector.svg" alt="Псков-Улан-удэ" class="lead__vector">
-      </div>
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img src="images/lead-polka.jpg" class="lead__image" alt="Полка в вагоне">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     
     <section class="intro">
@@ -165,18 +168,24 @@
       </div>
     </section>
 
-    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="outro">
-      <h2 class="outro__title">До Байкала «на собаках»</h2>
-      <p class="outro__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-    </a>
+    <section>
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="outro">
+        <h2 class="outro__title">До Байкала «на собаках»</h2>
+        <p class="outro__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
+    </section>
+
+  </main>
 
     <footer class="footer">
-      <nav class="footer__links">
-        <a href="https://yandex.ru/maps/" target="_blank" class="footer__link">Карты</a>
-        <a href="https://yandex.ru/pogoda/" target="_blank" class="footer__link">Погода</a>
-        <a href="https://rasp.yandex.ru/" target="_blank" class="footer__link">Расписание</a>
-        <a href="https://calendar.yandex.ru/" target="_blank" class="footer__link">Календарь</a>
-        <a href="https://travel.yandex.ru/" target="_blank" class="footer__link">Путешествия</a>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__link-item"><a href="https://yandex.ru/maps/" target="_blank" class="footer__link">Карты</a></li>
+          <li class="footer__link-item"><a href="https://yandex.ru/pogoda/" target="_blank" class="footer__link">Погода</a></li>
+          <li class="footer__link-item"><a href="https://rasp.yandex.ru/" target="_blank" class="footer__link">Расписание</a></li>
+          <li class="footer__link-item"><a href="https://calendar.yandex.ru/" target="_blank" class="footer__link">Календарь</a></li>
+          <li class="footer__link-item"><a href="https://travel.yandex.ru/" target="_blank" class="footer__link">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">© 2020. Ванькова Виктория</p>
     </footer>
